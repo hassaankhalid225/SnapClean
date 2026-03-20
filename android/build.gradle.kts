@@ -1,3 +1,11 @@
+buildscript {
+    val kotlin_version: String by project
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
 allprojects {
     repositories {
         google()
